@@ -61,13 +61,13 @@ variable "db_max_size_bytes" {
 variable "log_analytics_workspace" {
   description = "Identifies the log analytics workspace"
   type        = string
-  default     = "lgawdap-swu002"
+  default     = "lgawdap-test002"
 }
 
 variable "resource_group_dap_la" {
   description = "Resource group for dap la"
   type        = string
-  default     = "rg-swu-la-dev"
+  default     = "rg-test-la-dev"
 }
 
 # sql
@@ -91,8 +91,8 @@ variable "sql-database-names-001" {
     db-name = string
   }))
     default = {
-        sql-db-1 = { db-name = "adventureworks" }
-        sql-db-2 = { db-name = "c3" }
+        sql-db-1 = { db-name = "test001" }
+        sql-db-2 = { db-name = "test002" }
   }
 }
 

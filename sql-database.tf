@@ -14,7 +14,7 @@ resource "azurerm_sql_database" "sql-server-db-001" {
   threat_detection_policy {
      state                      = "Enabled"
      email_addresses = [
-      "shiywu@deloitte.ca"
+      "sdfas@abc.ca"
      ]
      retention_days             = "30"
      use_server_default         = "enabled"

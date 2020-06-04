@@ -56,7 +56,7 @@ resource "azurerm_mssql_server_vulnerability_assessment" "vulnerability-assessme
     enabled                   = true
     email_subscription_admins = true
     emails = [
-      "shiywu@deloitte.ca"
+      "test@abc.ca"
     ]
   }
 }
